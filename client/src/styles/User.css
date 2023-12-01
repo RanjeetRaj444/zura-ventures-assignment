@@ -1,0 +1,57 @@
+.user__info {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 0.5fr 2fr 2fr;
+}
+
+.user__info > div {
+  width: 100%;
+  display: flex;
+}
+
+.user-data {
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.subscription {
+  margin-top: 30px;
+}
+
+.subs__banner {
+  background: var(--highlight--color);
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subs__banner h2 span {
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.subs__banner button {
+  background: white;
+  color: var(--highlight--color);
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.subscription h4 {
+  color: var(--danger-color);
+  margin-top: 10px;
+  text-decoration: underline;
+  padding-left: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}

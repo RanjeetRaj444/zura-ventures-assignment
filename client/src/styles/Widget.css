@@ -1,0 +1,63 @@
+.general__tab {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.widget__configs .Tab-title,
+.widget__configs h2 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.widget__configs h2 {
+  margin-bottom: 5px;
+}
+
+.section__display,
+.display__section2-controller {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  row-gap: 10px;
+}
+
+.display__section2 {
+  margin-top: 20px;
+}
+
+.display__section2-controller {
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.display__section2-controller .general__item:last-child {
+  display: flex;
+  justify-content: end;
+}
+#custom-file-input{
+  width: 20%;
+}
+#custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+#custom-file-input::before {
+  content: 'Uplode Image';
+  display: inline-block;
+  background: #7E22CE;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 10pt;
+}
+#custom-file-input:hover::before {
+  border-color: black;
+}
+#custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
