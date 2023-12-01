@@ -1,0 +1,12 @@
+export const host = "https://lama-backend-7w46.onrender.com";
+export const login = `${host}/add_user`;
+export const updateUserData = `${host}/update_user`;
+export const getProjects = `${host}/project`;
+export const add_project = `${host}/add_project`;
+export const update_project = `${host}/update_project`;
+export const get_records = `${host}/record`;
+export const add_records = `${host}/add_record`;
+export const delete_records = `${host}/delete_record`;
+export const update_records = `${host}/update_record`;
+export const get_general_configure = `${host}/general_configure`;
+export const create_general_configure = `${host}/add_general_configure`;
