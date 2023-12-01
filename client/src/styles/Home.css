@@ -1,0 +1,170 @@
+.home__container {
+	height: 100vh;
+	width: 100%;
+}
+
+.back__to__home {
+	display: flex;
+	align-items: center;
+}
+
+.back__to__home button {
+	border: 1px solid var(--border-color);
+	padding: 5px 10px;
+	border-radius: 13px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 12px;
+	cursor: pointer;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+		rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.home__title {
+	font-size: 40px;
+	font-weight: 700;
+	color: var(--highlight--color);
+}
+
+.home__title.no__projects {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 45px;
+}
+
+.no__project-illustration {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.no__project-illustration img {
+	width: 300px;
+}
+
+.no__project-text {
+	font-size: 22px;
+	text-align: center;
+}
+
+.create__project button {
+	background: var(--secondary-color);
+	color: var(--color-white);
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	font-size: 35px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.has__project-title__bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.has__project-title__bar .create__project button {
+	font-size: 20px;
+	margin: 0;
+}
+
+.home__contents-main {
+	height: 100%;
+}
+
+.home__body {
+	height: 90%;
+}
+
+.projects {
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	gap: 5%;
+	row-gap: 40px;
+}
+
+.projects a {
+	width: 100%;
+	display: flex;
+	gap: 8px;
+	width: 100%;
+	border: 1px solid var(--border-color);
+	padding: 10px;
+	border-radius: 16px;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+		rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.project__logo {
+	background: teal;
+	padding: 20px 35px;
+	font-size: 45px;
+	color: white;
+	font-weight: 700;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+}
+.projectImage {
+	display: flex;
+	align-items: center;
+}
+.projectImage {
+	width: 100px;
+}
+.projectImage img {
+	border-radius: 19%;
+}
+.project__body {
+	width: 100%;
+	padding: 10px 10px 5px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.project__name {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--highlight--color);
+	margin-top: 5px;
+}
+
+.project__episodes {
+	color: var(--primary-color);
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.project__timestamps {
+	font-size: 12px;
+	color: var(--non-highlight-color);
+}
+
+.login__section,
+.register__section {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+}
+
+.register__section {
+	margin-top: 20px;
+}
+
+.create__project-modal p {
+	margin-bottom: 10px;
+}
